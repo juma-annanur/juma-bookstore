@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form login and password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+        <h1>Login</h1>
+        
+            <div class="input-box">
+                <input type="text" placeholder="Username" required/>
+                <img src="https://img.icons8.com/?size=100&id=98957&format=png&color=000000" class="icon">
+            </div>   
+    
+            <div class="input-box">
+                <input type="password" placeholder="Password" required id="passwordInput"/>
+                <img src="https://img.icons8.com/ios-filled/50/000000/visible--v1.png" 
+                     class="icon" 
+                     id="togglePasswordIcon"
+                     title="Show password">
+            </div>
+    
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forgot password?</a>
+            </div>
+    
+            <button type="submit">Login</button>
+    
+            <div class="register-link">
+                <p>Don't have an account? <a href="#">Register</a></p>
+            </div>
+        </form>
+    </div>    
+    <script src="JavaScript.js"></script>
+</body>
+</html>
